@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container{
+    width: 80%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    width: 40%;
+    height: 600px;
+    overflow-y: hidden;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: -5px  10px 10px blueviolet;
+}
+
+.left img{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    width: 40%;
+    height: 600px;
+    border: 1px solid black;
+    background-color: grey;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 10px -5px  10px blueviolet;
+}
+
+.right form {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    text-decoration: underline;
+}
+
+.right form table{
+    width: 90%;
+}
+
+.right form table tr{
+    border: none;
+}
+
+label{
+    width: auto;
+    font-size: 28px;
+}
+
+input{
+    width: 100%;
+    height: 40px;
+    /* text-align: left; */
+    font-size: 20px;
+    border: none;
+    background: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+input::placeholder{
+    color: white;
+}
+
+form button{
+    margin-top: 50px !important;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 1s  ;
+}
+
+form button:hover{
+    background-color: orange;
+}
+
+p{
+    height: 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+a{
+    columns: blue;
+    text-decoration: none;
+}
+
+
+@media (max-width:720px) {
+    .container{
+        flex-direction: column;
+        width: 98%;
+    }
+
+    .left{
+        display: none;
+    }
+    
+    .right{
+        width: 100%;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    label{
+        width: auto;
+        font-size: 18px;
+        padding-right: 20px;
+    }
+    input{
+        width: auto;
+        font-size: 18px !important;
+    }
+    
+}

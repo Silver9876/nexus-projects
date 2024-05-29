@@ -1,0 +1,148 @@
+
+  @media screen and (min-width: 480px){
+    .container{
+        position: absolute;
+        right: 12%;
+    }
+
+
+    
+  }
+
+
+
+.login{
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('./assests/pexels-samkolder-2387873.jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 400px;
+    min-height: 500px;
+    border: 2px solid white;
+    color: rgb(255, 255, 255);
+    border-radius: 35px;
+    backdrop-filter: blur(50px); 
+    background-color: rgba(0, 0, 0, 0.3);
+
+
+    /* transform: translate(-50%,-50%); */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px); 
+      overflow: hidden;
+      border-radius: 20px;
+      border:1px solid rgba(241, 3, 3, 0.18);
+      box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.header{
+    
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .line{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-height: 300px;
+    margin-bottom: 20px;
+    padding: auto;
+}
+
+.input{
+    margin: 4px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+input{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); 
+    padding: 13px;
+    width: 300px;
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: 1px solid white;
+    font-size: 18px;
+
+}
+
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    /* gap: auto; */
+}
+
+.forgot-password{
+    width: 70%;
+    margin-left: 40px;
+}
+
+.submit{
+    font-weight: 600;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 110px;
+    height: auto;
+    
+}
+
+.grey{
+    background-color: rgb(0, 0, 0);
+    color: gray;
+}
+
+span{
+    color: rgb(66, 66, 227);
+}
+
+.submitbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.submit{
+    width: 100px;
+    height: auto;
+    text-align: center;
+    transition: 1s;
+}
+
+.submit:hover{
+    color: white;
+    background-color: black;
+}
